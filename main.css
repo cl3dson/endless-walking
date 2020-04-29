@@ -1,0 +1,18 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+
+#player {
+    transform: scale(0.3);
+    position: fixed;
+    transition-property: left;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.inverse {
+    transform: scale(0.3) scaleX(-1)!important;
+}
