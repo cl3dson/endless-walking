@@ -35,7 +35,7 @@ setInterval(() => {
     console.log(newPosition)
     image.style.left = newPosition
 
-},300)
+},200)
 
 document.addEventListener('keydown',function(e){
 
